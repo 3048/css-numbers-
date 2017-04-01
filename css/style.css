@@ -1,0 +1,121 @@
+#logo {
+	position: relative;
+	width: 100px;
+	height: 150px;
+	
+}
+
+#logo span {
+	position: absolute;
+	width: 100%;
+	height: 150px;
+	background-color: #fff;
+	font-size: 90px;
+}
+
+#logo #one {
+	position: absolute;
+	right: 0;
+}
+
+#one {
+	z-index: 100;
+	animation: one .5s 1s backwards;
+}
+
+#two {
+	z-index: 9;
+	animation: two .5s 2s backwards;
+}
+
+#three {
+	z-index: 8;
+	animation: three .5s 2.2s backwards;
+}
+
+#four {
+	z-index: 7;
+	animation: four .5s 2.4s backwards;
+}
+
+#five {
+	z-index: 6;
+	animation: five .5s 2.6s backwards;
+}
+
+#six {
+	z-index: 5;
+	animation: six .5s 2.8s backwards;
+}
+
+#seven {
+	z-index: 4;
+	animation: seven .5s 3s backwards;
+}
+
+#eight {
+	z-index: 3;
+	animation: seven .5s 3.2s backwards;
+}
+
+#nine {
+	z-index: 2;
+	animation: seven .5s 3.4s backwards;
+}
+
+#ten {
+	z-index: 1;
+	animation: seven .5s 3.6s backwards;
+}
+
+@keyframes total {
+	0% {
+		opacity: 0;
+		
+	}
+	100% {
+		opacity: 1;
+		
+	}
+}
+
+@keyframes one {
+	100% {
+		left: 600px;
+	}
+}
+
+@keyframes two {
+	100% {
+		left: 600px;
+	}
+}
+
+@keyframes three {
+	100% {
+		left: 600px;
+	}
+}
+
+@keyframes four {
+	100% {
+		left: 600px;
+	}
+}
+
+@keyframes five {
+	100% {
+		left: 600px;
+	}
+}
+
+@keyframes six {
+	100% {
+		left: 600px;
+	}
+}
+
+@keyframes seven {
+	100% {
+		left: 600px;
+	}
